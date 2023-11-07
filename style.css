@@ -799,6 +799,7 @@ body {
     }
 
     .about-text p {
+        padding-right: 20px;
         font-size: 18px;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -819,9 +820,11 @@ body {
     .services-list div {
         text-align: center;
     }
+
+    
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .about-text h2 {
         font-size: 20px;
     }
@@ -836,6 +839,51 @@ body {
         -webkit-line-clamp: 5;
         display: -webkit-box;
         -webkit-box-orient: vertical;
+    }
+    
+    .sub-title {
+        font-size: 36px;
+    }
+
+    .services-list div h2 {
+        font-size: 24px;
+    }
+
+    .services-list div {
+        margin-right: 20px;
+        margin-left: -25px;
+    }
+    .project-content {
+        padding: 0;
+    }
+
+    .main-text h2 {
+        font-size: 36px;
+    }
+
+    .contact-text h2 {
+        font-size: 36px;
+    }
+
+    .contact-text h4 {
+        font-size: 20px;
+    }
+
+    .contact-text p {
+        font-size: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 5;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+
+    .contact-form {
+        padding-right: 20px;
+    }
+
+    .contact-form textarea {
+        height: 10em;
     }
 }
 
